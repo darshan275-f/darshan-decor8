@@ -263,4 +263,51 @@ footer {
   .hero h1 {
     font-size: 2rem;
   }
+  .about-page img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.2rem;
+  }
+  .about-page, .about, .contact-page {
+    padding: 1.2rem 0.5rem;
+  }
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.85rem 0;
+  }
+  .contact-info {
+    font-size: 0.98rem;
+    padding: 0.8rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+  nav ul {
+    gap: 1.2rem;
+  }
+  .hero {
+    padding: 2.5rem 0.5rem 2rem 0.5rem;
+    border-radius: 0 0 18px 18px;
+  }
+  footer {
+    font-size: 0.95rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  h1, h2 {
+    font-size: 1.3rem;
+  }
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Make all images responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 } 
